@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: white;
+    padding: 2rem;
+}
+.update{
+    width: 20rem;
+    padding: 4rem;
+    border: gray solid 1px;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+button{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.update h1{
+    font-family: 'gabriola';
+    color: #007bff;
+}

@@ -1,0 +1,45 @@
+*{
+    font-family: 'gabriola';
+}
+.stockin-wrap{
+    width: 20rem;
+    border: solid 1px #ccc;
+    padding: 4rem;
+    background: white;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.stockin{
+    width: 92%;
+    height: 2rem;
+    padding-left: 1rem;
+    outline: none;
+    font-size: larger;
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+}
+.inbutton{
+    margin-top: 1rem;
+    width:100%;
+    background: #007bff;
+    border: none;
+    height: 2rem;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+}
+.paragraph{
+    font-size: larger;
+}
+body{
+    background: whitesmoke;
+}
+.add-input{
+    width: 20rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #007bff;
+    border-radius: 2px;
+}

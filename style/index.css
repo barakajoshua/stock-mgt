@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: white; /* Blue background */
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Gabriola';
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+}
+
+.header-btn {
+    border: none;
+    background: none;
+    padding: 8px 15px;
+    font-size: 1em;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.input-landing{
+    width: 18rem;
+    height: 2rem;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 1rem;
+}
+.sending-button{
+    width: 18rem;
+    height: 2rem;
+    font-weight: 600;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius:8px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: #007bff;
+    border-radius: 5px;
+}
